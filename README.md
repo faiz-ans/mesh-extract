@@ -50,14 +50,6 @@ This project is a C++ plugin for Autodesk Maya that allows users to extract, sto
 
 3. Customize the spherical volume parameters (`centerPoint`, `radiusPoint`) in the `doIt` method of `MeshInfoStoreCmd.cpp` to adjust the selection area.
 
-## Technical Highlights
-- **C++ Integration**: Built using Autodesk Maya’s C++ API to ensure efficient interaction with scene geometry.
-- **Custom Data Structures**:
-  - `Vertex` and `Face` classes for representing mesh components.
-  - `MeshInfoStore` class for storing and retrieving mesh data.
-- **Automation**:
-  - Proxy generation and polygon reduction integrated via MEL commands.
-
 ## Future Enhancements
 - Add support for dynamic user input to define selection areas.
 - Extend functionality for exporting and importing mesh data.
