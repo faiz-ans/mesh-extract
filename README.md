@@ -1,23 +1,6 @@
 ## Overview
 This project is a C++ plugin for Autodesk Maya that allows users to extract, store, and manipulate mesh data, including vertices, faces, normals, and UVs, within a defined volume in a scene. The plugin integrates seamlessly with Maya's API, providing automation and functionality for analyzing and generating meshes.
 
-## Key Features
-1. **Mesh Data Extraction**:
-   - Captures vertices, faces, normals, and UVs of all meshes within a specified spherical volume in a scene.
-   - Provides detailed information about the geometry for analysis or further manipulation.
-
-2. **Data Storage**:
-   - Uses a custom-built data structure (`MeshInfoStore`) to store mesh information efficiently.
-   - Supports multiple meshes and keeps each mesh's data distinct.
-
-3. **Mesh Manipulation**:
-   - Generates new meshes in Maya from stored data.
-   - Automates polygon reduction to create proxy meshes optimized for real-time applications.
-
-4. **Integration with Maya**:
-   - Utilizes Maya's C++ API for scene interaction.
-   - Commands integrated into Maya’s interface for ease of use.
-
 ## How It Works
 1. **Selection Area**:
    - The plugin defines a spherical volume in the scene using a center point and radius.
