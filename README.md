@@ -1,9 +1,3 @@
-
-# Maya Plugin for Mesh Data Storage and Manipulation
-
-## Project Name
-Mesh Data Store and Proxy Generator Plugin for Autodesk Maya
-
 ## Overview
 This project is a C++ plugin for Autodesk Maya that allows users to extract, store, and manipulate mesh data, including vertices, faces, normals, and UVs, within a defined volume in a scene. The plugin integrates seamlessly with Maya's API, providing automation and functionality for analyzing and generating meshes.
 
